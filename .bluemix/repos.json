@@ -36,9 +36,10 @@
         },
         {
             "type": "table",
-            "columnCount": 1,
+            "columnCount": 2,
             "widths": [
-                "100%"
+                "80%",
+                "10%"
             ],
             "items": [
                 {
@@ -48,16 +49,32 @@
                     }
                 },
                 {
+                    "type": "label",
+                    "title": ""
+                },
+                {
                     "type": "text",
                     "key": "orders-api-repo_url"
+                },
+                {
+                    "type": "label",
+                    "title": ""
                 },
                 {
                     "type": "text",
                     "key": "catalog-api-repo_url"
                 },
                 {
+                    "type": "label",
+                    "title": ""
+                },
+                {
                     "type": "text",
                     "key": "ui-repo_url"
+                },
+                {
+                    "type": "label",
+                    "title": ""
                 }
             ]
         }
