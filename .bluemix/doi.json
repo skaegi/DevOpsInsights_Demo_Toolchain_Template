@@ -1,0 +1,18 @@
+{
+  "copy_data_from_toolchain": "ffb7e0c4-4b6b-4c54-b37f-5716e649d786",
+  "copy_data_from_toolchain_name": "testidra from ucparule@us.ibm.com org based toolchains in dev",
+  "custom_datasets": [
+    {
+      "lifecycle_stage": "IVT",
+      "type_of_test": "test",
+      "label": "Integration Test"
+    },
+    {
+      "lifecycle_stage": "ST",
+      "type_of_test": "test",
+      "label": "Smoke Test"
+    }
+  ],
+  "policies": [
+  ]
+}
