@@ -60,3 +60,5 @@ form:
       orders-api-repo_url: 'https://github.com/devops-insights/Microservices_OrdersAPI'
       ui-repo_name: 'ui-{{toolchain.name}}'
       ui-repo_url: 'https://github.com/devops-insights/Microservices_UI'
+    schema:
+      $ref: repos.json
