@@ -29,7 +29,7 @@ services:
     parameters:
       repo_name: '{{form.githubpublic.parameters.catalog-api-repo_name}}'
       repo_url: '{{form.githubpublic.parameters.catalog-api-repo_url}}'
-      type: clone
+      type: existing
       has_issues: false
       enable_traceability: true
   ui-repo:
@@ -37,7 +37,7 @@ services:
     parameters:
       repo_name: '{{form.githubpublic.parameters.ui-repo_name}}'
       repo_url: '{{form.githubpublic.parameters.ui-repo_url}}'
-      type: clone
+      type: existing
       has_issues: false
       enable_traceability: true
   orders-api-repo:
@@ -45,7 +45,7 @@ services:
     parameters:
       repo_name: '{{form.githubpublic.parameters.orders-api-repo_name}}'
       repo_url: '{{form.githubpublic.parameters.orders-api-repo_url}}'
-      type: clone
+      type: existing
       has_issues: false
       enable_traceability: true
   dra:
@@ -60,5 +60,3 @@ form:
       orders-api-repo_url: 'https://github.com/devops-insights/Microservices_OrdersAPI'
       ui-repo_name: 'ui-{{toolchain.name}}'
       ui-repo_url: 'https://github.com/devops-insights/Microservices_UI'
-    schema:
-      $ref: repos.json
