@@ -14,19 +14,10 @@
     },
     "type": "object",
     "properties": {
-        "catalog-api-repo_name": {
-            "type": "string"
-        },
         "catalog-api-repo_url": {
             "type": "string"
         },
-        "orders-api-repo_name": {
-            "type": "string"
-        },
         "orders-api-repo_url": {
-            "type": "string"
-        },
-        "ui-repo_name": {
             "type": "string"
         },
         "ui-repo_url": {
@@ -34,11 +25,8 @@
         }
     },
     "required": [
-        "catalog-api-repo_name",
         "catalog-api-repo_url",
-        "orders-api-repo_name",
         "orders-api-repo_url",
-        "ui-repo_name",
         "ui-repo_url"
     ],
     "form": [
@@ -50,9 +38,7 @@
             "type": "table",
             "columnCount": 3,
             "widths": [
-                "47%",
-                "6%",
-                "47%"
+                "100%"
             ],
             "items": [
                 {
@@ -62,50 +48,16 @@
                     }
                 },
                 {
-                    "type": "label",
-                    "title": ""
-                },
-                {
-                    "type": "label",
-                    "title": {
-                        "$ref": "#/messages/github.targetRepository"
-                    }
-                },
-                {
                     "type": "text",
                     "key": "orders-api-repo_url"
-                },
-                {
-                    "type": "icon",
-                    "iconType": "right_arrow"
-                },
-                {
-                    "type": "text",
-                    "key": "orders-api-repo_name"
                 },
                 {
                     "type": "text",
                     "key": "catalog-api-repo_url"
                 },
                 {
-                    "type": "icon",
-                    "iconType": "right_arrow"
-                },
-                {
-                    "type": "text",
-                    "key": "catalog-api-repo_name"
-                },
-                {
                     "type": "text",
                     "key": "ui-repo_url"
-                },
-                {
-                    "type": "icon",
-                    "iconType": "right_arrow"
-                },
-                {
-                    "type": "text",
-                    "key": "ui-repo_name"
                 }
             ]
         }
