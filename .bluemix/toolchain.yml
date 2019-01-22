@@ -29,25 +29,25 @@ services:
     parameters:
       repo_name: '{{form.githubpublic.parameters.catalog-api-repo_name}}'
       repo_url: '{{form.githubpublic.parameters.catalog-api-repo_url}}'
-      type: existing
+      type: link
       has_issues: false
-      enable_traceability: true
+      enable_traceability: false
   ui-repo:
     service_id: githubpublic
     parameters:
       repo_name: '{{form.githubpublic.parameters.ui-repo_name}}'
       repo_url: '{{form.githubpublic.parameters.ui-repo_url}}'
-      type: existing
+      type: link
       has_issues: false
-      enable_traceability: true
+      enable_traceability: false
   orders-api-repo:
     service_id: githubpublic
     parameters:
       repo_name: '{{form.githubpublic.parameters.orders-api-repo_name}}'
       repo_url: '{{form.githubpublic.parameters.orders-api-repo_url}}'
-      type: existing
+      type: link
       has_issues: false
-      enable_traceability: true
+      enable_traceability: false
   dra:
     service_id: draservicebroker
     $ref: doi.yml
