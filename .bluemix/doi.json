@@ -1,7 +1,7 @@
 {
   "copy_data_from_toolchain": "fefba8cd-21b3-4d31-8cec-48c3270f656b",
   "copy_data_from_toolchain_name": "referencetoolchain from ucparule@us.ibm.com org based toolchains in dev",
-  "mine_repos": true,
+  "mine_repos": 3,
   "custom_datasets": [
   ],
   "policies": [
