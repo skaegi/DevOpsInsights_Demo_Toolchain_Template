@@ -1,6 +1,6 @@
 ---
 template.name: "Explore DevOps Insights with pre-canned Demo data"
-template.description: "Create a toolchain which has a DevOps Insights card pre-loaded with demo data. Click on the DevOps Insights card to bring up the dashboard to explore DevOps Insights features."
+template.description: "Create a toolchain which has a DevOps Insights card pre-loaded with demo data. \n\nClick on the DevOps Insights card to bring up the dashboard to explore DevOps Insights features."
 template.gettingStarted: "**Your toolchain is ready!**\n**Quick start:** Commit a change to a Git repo to trigger a new build and deployment of one of the microservices. See results in the Deployment Risk dashboard in DevOps Insights. For step-by-step instructions, see the [tutorial](https://www.ibm.com/devops/method/tutorials/use-develop-test-microservices-on-cloud-foundry-toolchain?task=2) for this toolchain."
 deploy.title: "Microservices deployment stage"
 deploy.description: "Microservices deployment schema"
