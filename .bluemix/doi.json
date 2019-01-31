@@ -1,6 +1,6 @@
 {
-  "copy_data_from_toolchain": "c5535196-55d9-465b-81a7-a7daf249de42",
-  "copy_data_from_toolchain_name": "component from default RG based toolchains in dev",
+  "copy_data_from_toolchain": "4641a60b-169f-466b-82e2-fb58f65ed88c",
+  "copy_data_from_toolchain_name": "component toolchain from default RG based toolchains in ucparule prod",
   "mine_repos": 3,
   "custom_datasets": [
   ],
