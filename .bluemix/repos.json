@@ -62,7 +62,8 @@
                 },
                 {
                     "type": "text",
-                    "key": "catalog-api-repo_url"
+                    "key": "catalog-api-repo_url",
+                    "readonly": true
                 },
                 {
                     "type": "label",
